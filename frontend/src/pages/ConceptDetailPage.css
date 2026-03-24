@@ -1,0 +1,150 @@
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-dim);
+  text-decoration: none;
+  font-size: 0.875rem;
+  margin-bottom: 1.5rem;
+  transition: color 0.2s;
+}
+
+.back-link:hover { color: var(--accent); }
+
+.detail-header {
+  margin-bottom: 2rem;
+}
+
+.detail-header .badge { margin-bottom: 0.75rem; display: inline-block; }
+
+.detail-header h1 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: var(--text-bright);
+  margin: 0.5rem 0;
+}
+
+.detail-summary {
+  font-size: 1rem;
+  color: var(--text-dim);
+  max-width: 700px;
+  line-height: 1.6;
+}
+
+.detail-section {
+  margin-bottom: 2.5rem;
+}
+
+.detail-section h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-bright);
+  margin-bottom: 1rem;
+}
+
+.section-sub {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  margin-bottom: 1rem;
+}
+
+.topic-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.topic-pill {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.83rem;
+  font-family: var(--font-mono);
+  transition: all 0.2s;
+}
+
+.topic-pill:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.confusion-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.confusion-item {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.confusion-item:hover { border-color: var(--accent); }
+.confusion-item.expanded { border-color: var(--accent); }
+
+.confusion-question {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+}
+
+.confusion-num {
+  width: 28px; height: 28px;
+  background: var(--accent);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.confusion-text {
+  flex: 1;
+  font-weight: 600;
+  color: var(--text-bright);
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+}
+
+.toggle-icon {
+  color: var(--text-dim);
+  font-size: 0.75rem;
+}
+
+.confusion-answer {
+  background: rgba(108,99,255,0.06);
+  border-top: 1px solid var(--border);
+  padding: 1.25rem;
+}
+
+.answer-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--accent3);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.confusion-answer p {
+  font-size: 0.9rem;
+  color: var(--text);
+  line-height: 1.65;
+}
+
+.detail-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
